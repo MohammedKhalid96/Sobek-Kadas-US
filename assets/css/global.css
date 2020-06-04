@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway.otf");
+  src: url("../fonts/Raleway-Regular.eot") format("embedded-opentype"),
+    url("../fonts/Raleway-Regular.woff2") format("woff2"),
+    url("../fonts/Raleway.woff") format("woff"),
+    url("../fonts/Raleway-Regular.ttf") format("truetype"),
+    url("../fonts/Raleway.svg") format("svg");
+  font-display: swap;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  font-family: "Raleway", sans-serif;
+}
+
+.container,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
+  max-width: 95%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  margin-right: 0.5em;
+  font-size: 1.3em;
+  color: #fff;
+}
