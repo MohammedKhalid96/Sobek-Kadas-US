@@ -9,8 +9,7 @@
         title__bold: bold, 
         title__white: white, 
         title__orange: orange, 
-        title__dark: dark, 
-        title__orange: dark,
+        title__dark: dark,
         title__shadow: shadow, 
         title__center: center
       }"
