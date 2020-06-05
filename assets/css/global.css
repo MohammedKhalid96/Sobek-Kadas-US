@@ -9,7 +9,6 @@
   font-display: swap;
 }
 
-html,
 body {
   overflow-x: hidden;
   font-family: "Raleway", sans-serif;
@@ -20,11 +19,32 @@ body {
 .container-md,
 .container-lg,
 .container-xl {
-  max-width: 95%;
+  max-width: 90%;
+}
+
+a {
+  display: inline-block;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+button {
+  outline: 0;
+}
+
+:focus {
+  outline: none;
 }
 
 .navbar-dark .navbar-nav .nav-link {
   margin-right: 0.5em;
   font-size: 1.3em;
-  color: #fff;
+  color: #272b3a !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: #272b3a !important;
 }

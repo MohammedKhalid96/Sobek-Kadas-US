@@ -45,8 +45,5 @@ export default {
 
 <style scoped>
 
-.navbar-dark .navbar-nav .nav-link span {
-  font-size: 1.5em;
-  color: #fff;
-}
+
 </style>
