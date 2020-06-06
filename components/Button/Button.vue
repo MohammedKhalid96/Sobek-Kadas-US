@@ -1,10 +1,12 @@
 <template>
-  <div id="button">
-    <b-button class="button__element" :block="block" :class="{black: black, orange: orange}">
-      <Icon iconName="phone"></Icon>
-      {{content}}
-    </b-button>
-  </div>
+  <b-button
+    class="button__element"
+    :block="block"
+    :class="{fakelink__roundedradius: roundedRadius, fakelink__smallradius: smallRadius, black: black, orange: bgOrange}"
+  >
+    <!-- <Icon iconName="phone"></Icon> -->
+    {{content}}
+  </b-button>
 </template>
 
 <script>
@@ -17,7 +19,9 @@ export default {
     content: String,
     block: Boolean,
     black: Boolean,
-    orange: Boolean
+    smallRadius: Boolean,
+    roundedRadius: Boolean,
+    bgOrange: Boolean
   },
 
   components: {
@@ -27,7 +31,7 @@ export default {
 </script>
 
 <style scoped>
-#button {
+button {
   margin-top: 2rem;
 }
 
@@ -41,6 +45,14 @@ export default {
 
 .btn {
   border: 0;
-  padding: 1rem 2rem;
+  padding: 1rem;
+}
+
+.fakelink__roundedradius {
+  border-radius: 50%;
+}
+
+.fakelink__smallradius {
+  border-radius: 3rem;
 }
 </style>

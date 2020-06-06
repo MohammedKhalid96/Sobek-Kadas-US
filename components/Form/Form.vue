@@ -17,13 +17,10 @@
             <b-form-input
               id="email"
               v-model="form.email"
-              :state="validation"
               type="email"
               required
               placeholder="Enter email"
             ></b-form-input>
-            <b-form-invalid-feedback :state="validation">Your user ID must be 5-12 characters long.</b-form-invalid-feedback>
-            <b-form-valid-feedback :state="validation">Looks Good.</b-form-valid-feedback>
           </b-form-group>
         </b-col>
       </b-row>
@@ -33,21 +30,39 @@
       </b-form-group>
 
       <b-form-group id="input-message" label-for="message">
-        <b-form-textarea id="message" v-model="form.message" required rows="6" placeholder="Enter Message"></b-form-textarea>
+        <b-form-textarea
+          id="message"
+          v-model="form.message"
+          required
+          rows="6"
+          placeholder="Enter Message"
+        ></b-form-textarea>
       </b-form-group>
+
+      <Button bgOrange smallRadius content="Submit" />
     </b-form>
   </div>
 </template>
 
 <script>
 import inputValidations from "../../mixins/inputValidations";
+import Button from "../Button/Button";
 
 export default {
   name: "Form",
 
-  mixins: [inputValidations]
+  mixins: [inputValidations],
+
+  components: {
+    Button
+  }
 };
 </script>
 
 <style scoped>
+input,
+textarea {
+  border: 0;
+  padding: 2rem 1rem;
+}
 </style>

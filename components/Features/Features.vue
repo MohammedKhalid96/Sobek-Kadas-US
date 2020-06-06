@@ -27,6 +27,10 @@
           </b-row>
         </div>
       </b-container>
+      <div class="bottom-shape">
+        <b-img src="../../assets/images/backgrounds/shape-11.png" fluid-grow></b-img>
+      </div>
+
       <div class="divider"></div>
     </div>
   </div>
@@ -61,12 +65,20 @@ export default {
   background: #f5f5f7;
 }
 
-.top-shape {
+.top-shape,
+.bottom-shape {
   position: absolute;
-  bottom: 100%;
   left: 0;
   width: 100%;
   z-index: -1;
+}
+
+.top-shape {
+  bottom: 100%;
+}
+
+.bottom-shape {
+  top: 100%;
 }
 
 .row .col-4 {
