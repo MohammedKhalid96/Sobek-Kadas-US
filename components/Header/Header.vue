@@ -12,6 +12,7 @@
         <p class="my-4">Vertically centered modal!</p>
       </b-modal>
     </b-container>
+    <div class="divider"></div>
   </div>
 </template>
 
@@ -25,9 +26,6 @@ export default {
 </script>
 
 <style scoped>
-.divider {
-  height: 110px;
-}
 .header__video__img img {
   width: 45%;
 }

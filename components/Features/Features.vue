@@ -1,26 +1,33 @@
 <template>
   <div id="features">
-    <div class="container">
-      <Title orange medium bold center title="Why You Want Kadas In Your Business" />
-
-      <div class="features__top-features">
-        <b-row>
-          <b-col cols="4" v-for="feature in features" :key="feature.id">
-            <div class="features__top-features__element">
-              <nuxt-link to>
-                <div class="features__top-features__element__img">
-                  <b-img :src="feature.featureImgPath" fluid></b-img>
-                </div>
-
-                <div class="features__top-features__element__info text-center">
-                  <Title small dark :title="feature.featureName" />
-                  <FakeLink smallRadius bgOrange white content="View Details" />
-                </div>
-              </nuxt-link>
-            </div>
-          </b-col>
-        </b-row>
+    <div class="internal__wrap">
+      <div class="top-shape">
+        <b-img src="../../assets/images/backgrounds/shape-10.png" fluid-grow></b-img>
       </div>
+
+      <b-container>
+        <Title orange medium bold center title="Why You Want Kadas In Your Business" />
+
+        <div class="features__top-features">
+          <b-row>
+            <b-col cols="4" v-for="feature in features" :key="feature.id">
+              <div class="features__top-features__element">
+                <nuxt-link to>
+                  <div class="features__top-features__element__img">
+                    <b-img :src="feature.featureImgPath" fluid-grow></b-img>
+                  </div>
+
+                  <div class="features__top-features__element__info text-center">
+                    <Title small dark :title="feature.featureName" />
+                    <FakeLink smallRadius bgOrange white content="View Details" />
+                  </div>
+                </nuxt-link>
+              </div>
+            </b-col>
+          </b-row>
+        </div>
+      </b-container>
+      <div class="divider"></div>
     </div>
   </div>
 </template>
@@ -53,14 +60,29 @@ export default {
 </script>
 
 <style scoped>
-.features__top-features__element {
-  margin-bottom: 5rem;
+#features {
+  background: #f5f5f7;
+}
+
+.top-shape {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.row .col-4 {
+  margin-top: 5rem;
+}
+
+.row .col-4:nth-child(1),
+.row .col-4:nth-child(2),
+.row .col-4:nth-child(3) {
+  margin-top: 0;
 }
 
 .features__top-features__element__img img {
-  height: 250px;
-}
-
-.features__top-features__element__info #title {
+  height: 260px;
 }
 </style>

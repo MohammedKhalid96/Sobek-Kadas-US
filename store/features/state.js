@@ -3,32 +3,32 @@ export default () => ({
     {
       id: 1,
       featureImgPath: require("../../assets/images/features/advertis.jpg"),
-      featureName: "Higher Team Workflow Efficiency"
+      featureName: "Workflow management"
     },
     {
       id: 2,
-      featureImgPath: require("../../assets/images/features/procurm.png"),
-      featureName: "Enhanced Reporting Frequency, Automation and Structure"
+      featureImgPath: require("../../assets/images/features/workflow.png"),
+      featureName: "Performance Management"
     },
     {
       id: 3,
       featureImgPath: require("../../assets/images/features/time.jpg"),
-      featureName: "More Savings and No Clocking"
+      featureName: "Time and Attendance"
     },
     {
       id: 4,
-      featureImgPath: require("../../assets/images/features/workflow.png"),
-      featureName: "Goal Setting and Tracking"
+      featureImgPath: require("../../assets/images/features/procurm.png"),
+      featureName: "Smart Procurement"
     },
     {
       id: 5,
-      featureImgPath: require("../../assets/images/features/workmang.jpg"),
-      featureName: "Human Resources Savings"
+      featureImgPath: require("../../assets/images/features/adminandhr.png"),
+      featureName: "Admin and HR"
     },
     {
       id: 6,
-      featureImgPath: require("../../assets/images/features/adminandhr.png"),
-      featureName: "Fast Track Communication"
+      featureImgPath: require("../../assets/images/features/advertis.jpg"),
+      featureName: "Advertisement"
     }
   ]
 });

@@ -48,3 +48,11 @@ button {
 .navbar-dark .navbar-nav .nav-link:focus {
   color: #272b3a !important;
 }
+
+.divider {
+  height: 100px;
+}
+
+.internal__wrap {
+  position: relative;
+}
