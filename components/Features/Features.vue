@@ -6,7 +6,7 @@
       </div>
 
       <b-container>
-        <Title orange medium bold center title="Why You Want Kadas In Your Business" />
+        <Title orange medium bold center title="Kadas Features" />
 
         <div class="features__top-features">
           <b-row>
@@ -34,15 +34,12 @@
 
 <script>
 import { mapGetters } from "vuex";
-import inputValidations from "../../mixins/inputValidations";
 
 import Title from "../Title/Title";
 import FakeLink from "../FakeLink/FakeLink";
 
 export default {
   name: "Features",
-
-  mixins: [inputValidations],
 
   components: {
     Title,

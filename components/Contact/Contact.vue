@@ -14,6 +14,10 @@
           dark
           title="Kadas will assist in managing your team and workflow system to create better functionality. There is no need to spend so much money on inventory and stock tracking or even spend much time organizing and doing redundant business-as-usual administrations that takes much time and leaves you with less time to spend on your actual work. Efficiency and productivity is what Kadas wants to ensure in the easiest possible manner."
         />
+
+        <div class="contact__form">
+          <Form />
+        </div>
       </b-container>
     </div>
   </div>
@@ -21,12 +25,14 @@
 
 <script>
 import Title from "../Title/Title";
+import Form from "../Form/Form";
 
 export default {
   name: "contact",
 
   components: {
-    Title
+    Title,
+    Form
   }
 };
 </script>
