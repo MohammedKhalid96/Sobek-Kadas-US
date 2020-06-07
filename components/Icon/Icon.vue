@@ -1,26 +1,42 @@
 <template>
-  <b-icon :icon="iconName"></b-icon>
+  <b-icon :icon="iconName" :class="{dark: bgDark, orange: bgOrange}"></b-icon>
 </template>
 
 <script>
-import { BIcon, BIconPhone, BIconEnvelopeFill, BIconMap } from "bootstrap-vue";
+import {
+  BIcon,
+  BIconPhone,
+  BIconEnvelopeFill,
+  BIconMap,
+  BIconPlayFill
+} from "bootstrap-vue";
 
 export default {
   name: "Icon",
 
   props: {
     iconName: String,
-    white: Boolean
+
+    bgOrange: Boolean,
+    bgDark: Boolean
   },
 
   components: {
     BIcon,
     BIconPhone,
     BIconEnvelopeFill,
-    BIconMap
+    BIconMap,
+    BIconPlayFill
   }
 };
 </script>
 
 <style scoped>
+.dark {
+  background: #272b3a;
+}
+
+.orange {
+  background: #ec5423;
+}
 </style>

@@ -3,7 +3,7 @@
     <b-navbar toggleable="lg" type="dark" fixed="top">
       <b-container>
         <b-navbar-brand href="#">
-          <b-img src="../../assets/images/logo.png" fluid-grow alt></b-img>
+          <b-img src="../../assets/images/logo.png" fluid alt></b-img>
         </b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -44,6 +44,11 @@ export default {
 </script>
 
 <style scoped>
-
-
+.navbar {
+  padding: 0;
+  background: #fff;
+}
+.navbar-dark .navbar-brand img {
+  width: 80% !important;
+}
 </style>

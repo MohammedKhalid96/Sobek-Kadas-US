@@ -3,7 +3,7 @@
     class="button__element"
     :block="block"
     :type="type"
-    :class="{fakelink__roundedradius: roundedRadius, fakelink__smallradius: smallRadius, black: black, orange: bgOrange}"
+    :class="{fakelink__roundedradius: roundedRadius, fakelink__smallradius: smallRadius, dark: dark, orange: bgOrange}"
   >
     <!-- <Icon iconName="phone"></Icon> -->
     {{content}}
@@ -20,10 +20,10 @@ export default {
     content: String,
     type: String,
     block: Boolean,
-    black: Boolean,
+    bgOrange: Boolean,
+    dark: Boolean,
     smallRadius: Boolean,
-    roundedRadius: Boolean,
-    bgOrange: Boolean
+    roundedRadius: Boolean
   },
 
   components: {
@@ -37,8 +37,8 @@ button {
   margin-top: 2rem;
 }
 
-.black {
-  background: #000;
+.dark {
+  background: #272b3a;
 }
 
 .orange {
