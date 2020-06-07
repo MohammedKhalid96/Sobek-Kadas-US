@@ -38,6 +38,12 @@ button {
   outline: none;
 }
 
+.form-control:focus {
+  outline: none;
+  border: 0;
+  box-shadow: 0 0 0 0 transparent;
+}
+
 .navbar-dark .navbar-nav .nav-link {
   margin-right: 0.5em;
   font-size: 1.3em;
@@ -55,4 +61,31 @@ button {
 
 .internal__wrap {
   position: relative;
+}
+
+.table {
+  color: #272b3a;
+}
+
+.table th div {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.table thead th {
+  border-bottom: 2px solid #272b3a;
+}
+
+.table th,
+.table td {
+  padding: 1.5rem 0.75rem;
+  border-top: 0;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background: #f5f5f7;
+}
+
+ul {
+  padding: 0;
 }

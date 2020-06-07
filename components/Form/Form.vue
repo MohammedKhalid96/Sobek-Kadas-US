@@ -1,6 +1,6 @@
 <template>
   <div id="form">
-    <b-form @submit="onSubmit" v-if="show">
+    <b-form @submit="onSubmit">
       <b-row>
         <b-col>
           <b-form-group id="input-name" label-for="name">
@@ -39,7 +39,7 @@
         ></b-form-textarea>
       </b-form-group>
 
-      <Button bgOrange smallRadius content="Submit" />
+      <Button type="submit" bgOrange smallRadius content="Submit" />
     </b-form>
   </div>
 </template>

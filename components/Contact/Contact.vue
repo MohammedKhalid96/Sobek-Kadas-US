@@ -25,6 +25,8 @@
       <div class="bottom-shape">
         <b-img src="../../assets/images/backgrounds/shape-11.png" fluid-grow></b-img>
       </div>
+
+      <div class="divider"></div>
     </div>
   </div>
 </template>

@@ -3,23 +3,24 @@
 </template>
 
 <script>
-import { BIcon, BIconPhone } from "bootstrap-vue";
+import { BIcon, BIconPhone, BIconEnvelopeFill, BIconMap } from "bootstrap-vue";
 
 export default {
   name: "Icon",
 
   props: {
     iconName: String,
-    white: Boolean,
+    white: Boolean
   },
 
   components: {
     BIcon,
-    BIconPhone
+    BIconPhone,
+    BIconEnvelopeFill,
+    BIconMap
   }
 };
 </script>
 
 <style scoped>
-
 </style>

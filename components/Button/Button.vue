@@ -2,6 +2,7 @@
   <b-button
     class="button__element"
     :block="block"
+    :type="type"
     :class="{fakelink__roundedradius: roundedRadius, fakelink__smallradius: smallRadius, black: black, orange: bgOrange}"
   >
     <!-- <Icon iconName="phone"></Icon> -->
@@ -17,6 +18,7 @@ export default {
 
   props: {
     content: String,
+    type: String,
     block: Boolean,
     black: Boolean,
     smallRadius: Boolean,

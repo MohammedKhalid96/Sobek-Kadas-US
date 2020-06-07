@@ -1,9 +1,9 @@
 <template>
   <div id="why-kadas">
     <div class="internal__wrap">
-      <Title orange medium bold center title="Why You Want Kadas In Your Business" />
-
       <b-container>
+        <Title orange medium bold center title="Why You Want Kadas In Your Business" />
+
         <div class="why-kadas__wrap text-center">
           <b-row v-for="whyKadasElemnet in whyKadas" :key="whyKadasElemnet.id">
             <b-col cols="6">
