@@ -6,7 +6,7 @@
 
         <div class="why-kadas__wrap text-center">
           <b-row v-for="whyKadasElemnet in whyKadas" :key="whyKadasElemnet.id">
-            <b-col cols="6">
+            <b-col md="6">
               <div class="why-kadas__wrap__element">
                 <div class="why-kadas__wrap__element__img">
                   <b-img :src="whyKadasElemnet.whyKadasImgPath" fluid></b-img>
@@ -18,7 +18,7 @@
                 </div>
               </div>
             </b-col>
-            <b-col cols="6"></b-col>
+            <b-col cols="hidden" md="6"></b-col>
           </b-row>
         </div>
       </b-container>
@@ -57,5 +57,23 @@ export default {
 
 .why-kadas__wrap__element {
   padding: 0 5rem;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .why-kadas__wrap__element {
+    padding: 0;
+  }
+
+  .row .col-md-6 {
+    margin-top: 3rem;
+  }
+
+  .row .col-md-6:nth-child(1) {
+    margin-top: 0;
+  }
+
+  .row:nth-child(even) {
+    direction: ltr;
+  }
 }
 </style>

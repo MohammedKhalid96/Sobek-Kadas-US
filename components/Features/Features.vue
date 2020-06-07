@@ -10,7 +10,7 @@
 
         <div class="features__top-features">
           <b-row>
-            <b-col cols="4" v-for="feature in features" :key="feature.id">
+            <b-col md="4" v-for="feature in features" :key="feature.id">
               <div class="features__top-features__element">
                 <nuxt-link to>
                   <div class="features__top-features__element__img">
@@ -81,17 +81,27 @@ export default {
   top: 100%;
 }
 
-.row .col-4 {
+.row .col-md-4 {
   margin-top: 5rem;
 }
 
-.row .col-4:nth-child(1),
-.row .col-4:nth-child(2),
-.row .col-4:nth-child(3) {
+.row .col-md-4:nth-child(1),
+.row .col-md-4:nth-child(2),
+.row .col-md-4:nth-child(3) {
   margin-top: 0;
 }
 
 .features__top-features__element__img img {
   height: 260px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+.row .col-md-4:nth-child(2),
+.row .col-md-4:nth-child(3) {
+  margin-top: 5rem;
+}
+.features__top-features__element__img img {
+  height: auto;
+}
 }
 </style>

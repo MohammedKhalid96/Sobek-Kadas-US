@@ -2,13 +2,13 @@
   <div id="form">
     <b-form @submit="onSubmit">
       <b-row>
-        <b-col>
+        <b-col md="6">
           <b-form-group id="input-name" label-for="name">
             <b-form-input id="name" v-model="form.name" required placeholder="Enter name"></b-form-input>
           </b-form-group>
         </b-col>
 
-        <b-col>
+        <b-col md="6">
           <b-form-group
             id="input-email"
             label-for="email"

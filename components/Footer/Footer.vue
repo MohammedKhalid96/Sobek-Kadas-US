@@ -7,7 +7,7 @@
 
       <b-container>
         <b-row>
-          <b-col>
+          <b-col md="3">
             <div class="footer__info">
               <b-img src="../../assets/images/logo.png" fluid alt></b-img>
               <ul class="footer__links">
@@ -37,7 +37,7 @@
             </div>
           </b-col>
 
-          <b-col>
+          <b-col md="3">
             <div class="footer__links">
               <div class="footer__title">
                 <Title small bold dark title="Our Product" />
@@ -66,7 +66,7 @@
             </div>
           </b-col>
 
-          <b-col>
+          <b-col md="3">
             <div class="footer__links">
               <div class="footer__title">
                 <Title small bold dark title="Help" />
@@ -89,7 +89,7 @@
             </div>
           </b-col>
 
-          <b-col>
+          <b-col md="3">
             <div class="footer__links">
               <div class="footer__title">
                 <Title small bold dark title="Legal" />
