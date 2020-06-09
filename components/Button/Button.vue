@@ -1,6 +1,7 @@
 <template>
   <b-button
     class="button__element"
+    :to="to"
     :block="block"
     :type="type"
     :class="{fakelink__roundedradius: roundedRadius, fakelink__smallradius: smallRadius, dark: dark, orange: bgOrange}"
@@ -17,13 +18,14 @@ export default {
   name: "Button",
 
   props: {
+    to: String,
     content: String,
     type: String,
     block: Boolean,
     bgOrange: Boolean,
     dark: Boolean,
     smallRadius: Boolean,
-    roundedRadius: Boolean
+    roundedRadius: Boolean,
   },
 
   components: {

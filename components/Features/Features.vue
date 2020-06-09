@@ -18,7 +18,7 @@
                   </div>
 
                   <div class="features__top-features__element__info text-center">
-                    <Title small dark :title="feature.featureName" />
+                    <Title small bold dark :title="feature.featureName" />
                     <FakeLink smallRadius bgOrange white content="View Details" />
                   </div>
                 </nuxt-link>

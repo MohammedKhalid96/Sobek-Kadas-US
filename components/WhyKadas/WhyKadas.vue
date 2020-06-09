@@ -8,6 +8,9 @@
           <b-row v-for="whyKadasElemnet in whyKadas" :key="whyKadasElemnet.id">
             <b-col md="6">
               <div class="why-kadas__wrap__element">
+                <div class="why-kadas__wrap__element__index">
+                  <FakeLink roundedRadius bgOrange white :content="whyKadasElemnet.id + '' " />
+                </div>
                 <div class="why-kadas__wrap__element__img">
                   <b-img :src="whyKadasElemnet.whyKadasImgPath" fluid></b-img>
                 </div>
@@ -32,12 +35,14 @@
 import { mapGetters } from "vuex";
 
 import Title from "../Title/Title";
+import FakeLink from "../FakeLink/FakeLink";
 
 export default {
   name: "WhyKadas",
 
   components: {
-    Title
+    Title,
+    FakeLink
   },
 
   computed: mapGetters({
@@ -58,7 +63,9 @@ export default {
 .why-kadas__wrap__element {
   padding: 0 5rem;
 }
-
+.why-kadas__wrap__element__index {
+  margin-bottom: 2rem;
+}
 @media (min-width: 320px) and (max-width: 767px) {
   .why-kadas__wrap__element {
     padding: 0;

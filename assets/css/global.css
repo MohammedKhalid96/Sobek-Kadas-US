@@ -34,8 +34,18 @@ button {
   outline: 0;
 }
 
-:focus {
+:focus,
+:active,
+.btn-secondary:not(:disabled):not(.disabled):active:focus,
+.btn-secondary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-secondary.dropdown-toggle:focus {
   outline: none;
+  border: 0;
+  box-shadow: 0 0 0 0 transparent;
+}
+
+#contact .form-control {
+  background: #f5f5f7;
 }
 
 .form-control:focus {
@@ -118,6 +128,21 @@ button {
 
 ul {
   padding: 0;
+}
+
+.close {
+  font-size: 3rem;
+  color: #ec5423;
+  opacity: 1;
+}
+
+.close:hover {
+  color: #ec5423;
+}
+
+.close:active {
+  outline: 0;
+  border: 0;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {

@@ -1,22 +1,22 @@
 <template>
   <div>
-    <Header />
+    <HomeHeader />
     <Features />
     <WhyKadas />
-    <Contact />
     <Pricing />
+    <Contact />
   </div>
 </template>
 
 <script>
-import Header from "../components/Header/Header";
+import HomeHeader from "../components/HomeHeader/HomeHeader";
 import Features from "../components/Features/Features";
 import WhyKadas from "../components/WhyKadas/WhyKadas";
 import Contact from "../components/Contact/Contact";
 import Pricing from "../components/Pricing/Pricing";
 
 export default {
-  components: { Header, Features, WhyKadas, Contact, Pricing }
+  components: { HomeHeader, Features, WhyKadas, Contact, Pricing }
 };
 </script>
 

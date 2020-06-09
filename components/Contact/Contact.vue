@@ -1,9 +1,6 @@
 <template>
   <div id="contact">
     <div class="internal__wrap text-center">
-      <div class="top-shape">
-        <b-img src="../../assets/images/backgrounds/shape-10.png" fluid-grow></b-img>
-      </div>
       <b-container>
         <Title orange medium bold center title="Want To Know More" />
         <Title
@@ -22,9 +19,6 @@
           <Form />
         </div>
       </b-container>
-      <div class="bottom-shape">
-        <b-img src="../../assets/images/backgrounds/shape-11.png" fluid-grow></b-img>
-      </div>
 
       <div class="divider"></div>
     </div>
@@ -46,23 +40,5 @@ export default {
 </script>
 
 <style scoped>
-#contact {
-  background: #f5f5f7;
-}
 
-.top-shape,
-.bottom-shape {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  z-index: -1;
-}
-
-.top-shape {
-  bottom: 100%;
-}
-
-.bottom-shape {
-  top: 100%;
-}
 </style>

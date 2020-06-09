@@ -26,6 +26,7 @@ span {
 }
 
 .fakelink__roundedradius {
+  padding: 0.7rem 1rem;
   border-radius: 50%;
 }
 

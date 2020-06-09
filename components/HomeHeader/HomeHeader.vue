@@ -2,17 +2,18 @@
   <div id="header">
     <div class="divider"></div>
     <b-container>
-      <b-row>
+      <b-row no-gutters>
         <b-col md="3">
           <div class="header__title">
-            <Title dark big bold title="Kadas" />
-            <Title dark small bold title="Manage Business on Your Terms" />
+            <Title orange big bold title="Kadas" />
+            <Title dark small bold title="Inspire E-fficiency" />
+            <Title dark small bold title="A Smart Management and Office Platform" />
           </div>
         </b-col>
         <b-col md="6">
           <div class="header__video text-center">
             <div class="header__video__img" v-b-modal.modal-center>
-              <b-img src="../../assets/images/mockup/video.png" fluid></b-img>
+              <b-img src="../../assets/images/mockup/new-mocup.png" fluid-grow></b-img>
 
               <div class="header__video__img__icon">
                 <Icon iconName="play-fill" bgOrange white></Icon>
@@ -26,7 +27,7 @@
               dark
               small
               bold
-              title="A Business Operation Workflow, Remote HR and Smart Office Management"
+              title="Manage, monitor and measure your company's performance, workflow and team remotely at anytime"
             />
           </div>
         </b-col>
@@ -42,9 +43,9 @@
           allowfullscreen
         ></iframe>
 
-        <div class="modal__action__button text-center">
+        <!-- <div class="modal__action__button text-center">
           <Button block bgOrange smallRadius @click="$bvModal.hide('modal-center')" content="Close"></Button>
-        </div>
+        </div>-->
       </b-modal>
     </b-container>
     <div class="divider"></div>
@@ -90,7 +91,7 @@ export default {
 
 .header__video__img img {
   position: relative;
-  width: 90%;
+  width: 100%;
 }
 .header__video__img__icon svg {
   position: absolute;

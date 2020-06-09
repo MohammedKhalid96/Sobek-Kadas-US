@@ -11,6 +11,30 @@ export default {
 </script>
 
 <style scoped>
+table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: separate;
+  overflow-x: scroll;
+}
 
+td {
+  padding: 1.5rem;
+}
+
+th {
+  padding-bottom: 1.5rem;
+}
+
+tbody tr:nth-child(odd) {
+  background: #fff;
+}
+
+.tr-action {
+  background: #f5f5f7 !important;
+}
+.tr-action td {
+  padding: 0;
+}
 </style>
 
