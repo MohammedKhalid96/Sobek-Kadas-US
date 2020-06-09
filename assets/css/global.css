@@ -145,6 +145,16 @@ ul {
   border: 0;
 }
 
+.internal-pages .top-shape,
+.internal-pages .bottom-shape {
+  width: 0;
+  display: none;
+}
+
+.internal-pages .internal-pages__body #title {
+  display: none;
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
   .divider {
     height: 65px;

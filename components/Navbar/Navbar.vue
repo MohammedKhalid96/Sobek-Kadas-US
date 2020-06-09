@@ -13,7 +13,7 @@
           <b-navbar-nav class="ml-auto">
             <b-nav-item to="/" exact>Home</b-nav-item>
             <b-nav-item href="#">Features</b-nav-item>
-            <b-nav-item href="#">Pricing</b-nav-item>
+            <b-nav-item to="/PricingPage">Pricing</b-nav-item>
             <b-nav-item href="#">Case Study</b-nav-item>
             <b-nav-item href="#">Get Started</b-nav-item>
             <b-nav-item href="#">Partner</b-nav-item>

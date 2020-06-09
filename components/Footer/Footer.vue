@@ -139,9 +139,11 @@ export default {
 .top-shape {
   position: absolute;
   bottom: 100%;
-
   left: 0;
   width: 100%;
+}
+
+#home-page #footer .top-shape {
   z-index: -1;
 }
 

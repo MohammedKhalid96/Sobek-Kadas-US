@@ -20,6 +20,7 @@ table {
 
 td {
   padding: 1.5rem;
+  width: 25%;
 }
 
 th {
@@ -30,7 +31,7 @@ tbody tr:nth-child(odd) {
   background: #fff;
 }
 
-.tr-action {
+#home-page .tr-action {
   background: #f5f5f7 !important;
 }
 .tr-action td {
