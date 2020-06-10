@@ -21,17 +21,18 @@ export default {
 </script>
 
 <style scoped>
-span {
-  padding: 1rem;
-}
-
 .fakelink__roundedradius {
-  padding: 0.7rem 1rem;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
   border-radius: 50%;
+  text-align: center;
 }
 
 .fakelink__smallradius {
   border-radius: 3rem;
+  padding: 1rem;
 }
 
 .fakelink__bgorang {

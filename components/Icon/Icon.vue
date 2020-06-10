@@ -8,7 +8,8 @@ import {
   BIconPhone,
   BIconEnvelopeFill,
   BIconMap,
-  BIconPlayFill
+  BIconPlayFill,
+  BIconArrowRightCircle
 } from "bootstrap-vue";
 
 export default {
@@ -16,7 +17,6 @@ export default {
 
   props: {
     iconName: String,
-
     bgOrange: Boolean,
     bgDark: Boolean
   },
@@ -26,7 +26,8 @@ export default {
     BIconPhone,
     BIconEnvelopeFill,
     BIconMap,
-    BIconPlayFill
+    BIconPlayFill,
+    BIconArrowRightCircle
   }
 };
 </script>

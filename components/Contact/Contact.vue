@@ -6,7 +6,7 @@
         <Title
           small
           dark
-          title="Kadas is an application that will change how you organise and operate as you expand your company. Teams can work remotely and efficiently with no physical presence needed to perform all your team and workflow management. Kadas ensures efficiency and productivity in the most cost-effective, paperless and time-saving manner. Kadas is available on both Android and iOS smartphones and tablets."
+          title="Kadas is an application that will change how you organise and operate as you expand your company. Teams can work remotely and efficiently with no physical presence needed to perform all your team and workflow management. Kadas ensures efficiency and productivity in the most cost-effective, paperless and time-saving manner. Kadas is available on both Android and iOS smartphones and Web."
         />
 
         <Title

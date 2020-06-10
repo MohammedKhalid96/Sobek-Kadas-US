@@ -6,8 +6,9 @@
     :type="type"
     :class="{fakelink__roundedradius: roundedRadius, fakelink__smallradius: smallRadius, dark: dark, orange: bgOrange}"
   >
-    <!-- <Icon iconName="phone"></Icon> -->
-    {{content}}
+    <slot>
+      {{content}}
+    </slot>
   </b-button>
 </template>
 

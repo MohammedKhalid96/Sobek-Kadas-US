@@ -5,7 +5,9 @@
         <b-img src="../../assets/images/backgrounds/shape-10.png" fluid-grow></b-img>
       </div>
       <b-container>
-        <Title orange medium bold center title="Pricing Options" />
+        <div class="main-section-title">
+          <Title orange medium bold center title="Pricing Options" />
+        </div>
 
         <div class="pricing__table">
           <Table>
