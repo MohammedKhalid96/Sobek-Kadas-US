@@ -1,7 +1,7 @@
 <template>
   <div id="faq-page" class="internal-pages">
     <InternalHeader>
-      <Title big bold dark center title="FAQ" />
+      <Title big bold orange center title="FAQ" />
     </InternalHeader>
     <div class="internal-pages__body">
       <b-container>

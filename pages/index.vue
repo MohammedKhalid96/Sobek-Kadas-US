@@ -1,6 +1,13 @@
 <template>
   <div id="home-page">
     <HomeHeader />
+    <div class="explore-more text-center">
+      <Button to="/about" smallRadius dark>Explore More</Button>
+      <Button to="/contact" smallRadius bgOrange>
+        Contact Us
+        <Icon iconName="arrow-right-circle" class="ml-1" />
+      </Button>
+    </div>
     <Features />
     <WhyKadas />
     <Pricing />
@@ -14,9 +21,11 @@ import Features from "../components/Features/Features";
 import WhyKadas from "../components/WhyKadas/WhyKadas";
 import Contact from "../components/Contact/Contact";
 import Pricing from "../components/Pricing/Pricing";
+import Button from "../components/Button/Button";
+import Icon from "../components/Icon/Icon";
 
 export default {
-  components: { HomeHeader, Features, WhyKadas, Contact, Pricing }
+  components: { HomeHeader, Features, WhyKadas, Contact, Pricing, Button, Icon }
 };
 </script>
 

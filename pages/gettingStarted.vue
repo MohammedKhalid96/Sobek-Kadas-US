@@ -1,7 +1,7 @@
 <template>
   <div id="getting-started-page" class="internal-pages">
     <InternalHeader>
-      <Title big bold dark center title="Get Started" />
+      <Title big bold orange center title="Get Started" />
     </InternalHeader>
     <div class="internal-pages__body">
       <b-container>

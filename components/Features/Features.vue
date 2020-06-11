@@ -12,7 +12,7 @@
           <b-row>
             <b-col md="4" v-for="feature in features" :key="feature.id">
               <div class="features__top-features__element">
-                <nuxt-link to>
+                <nuxt-link :to="'/features/'+feature.featureName">
                   <div class="features__top-features__element__img">
                     <b-img :src="feature.featureImgPath" fluid-grow></b-img>
                   </div>
@@ -96,12 +96,12 @@ export default {
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-.row .col-md-4:nth-child(2),
-.row .col-md-4:nth-child(3) {
-  margin-top: 5rem;
-}
-.features__top-features__element__img img {
-  height: auto;
-}
+  .row .col-md-4:nth-child(2),
+  .row .col-md-4:nth-child(3) {
+    margin-top: 5rem;
+  }
+  .features__top-features__element__img img {
+    height: auto;
+  }
 }
 </style>

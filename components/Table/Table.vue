@@ -31,9 +31,11 @@ tbody tr:nth-child(odd) {
   background: #fff;
 }
 
-#home-page .tr-action {
+#home-page .tr-action,
+#home-page .tr-request {
   background: #f5f5f7 !important;
 }
+
 .tr-action td {
   padding: 0;
 }

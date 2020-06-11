@@ -25,14 +25,14 @@
                   <td>{{item.KADAS_COMPANY_SUITE}}</td>
                   <td>{{item.Custom}}</td>
                 </tr>
-                <tr>
+                <tr class="tr-request">
                   <td>Demo Trial (From Sales Team)</td>
                   <td v-for="item in 3" :key="item">Request Trial</td>
                 </tr>
                 <tr class="tr-action">
                   <td></td>
                   <td v-for="item in 3" :key="item">
-                    <Button to="/" smallRadius bgOrange content="Contact Sales" />
+                    <Button to="/contact" smallRadius bgOrange content="Contact Sales" />
                   </td>
                 </tr>
               </tbody>
@@ -130,7 +130,7 @@ export default {
         {
           id: 7,
           Features: "Tasks Allocation and Follow-up",
-          Kadas_Lite: "➖",
+          Kadas_Lite: "✔️",
           KADAS_COMPANY_SUITE: "✔️",
           Custom: "✔️"
         },
@@ -158,6 +158,111 @@ export default {
         {
           id: 11,
           Features: "Scanning",
+          Kadas_Lite: "➖",
+          KADAS_COMPANY_SUITE: "✔️",
+          Custom: "✔️"
+        },
+        {
+          id: 12,
+          Features: "Document Sharing",
+          Kadas_Lite: "➖",
+          KADAS_COMPANY_SUITE: "✔️",
+          Custom: "✔️"
+        },
+        {
+          id: 13,
+          Features: "Signature and Initial Recording and Filling",
+          Kadas_Lite: "➖",
+          KADAS_COMPANY_SUITE: "✔️",
+          Custom: "✔️"
+        },
+        {
+          id: 14,
+          Features: "Trip Management and Monitoring",
+          Kadas_Lite: "➖",
+          KADAS_COMPANY_SUITE: "✔️",
+          Custom: "✔️"
+        },
+        {
+          id: 15,
+          Features: "Location-Based Spot Check",
+          Kadas_Lite: "➖",
+          KADAS_COMPANY_SUITE: "✔️",
+          Custom: "✔️"
+        },
+        {
+          id: 16,
+          Features: "Announcement and Notice Boards",
+          Kadas_Lite: "➖",
+          KADAS_COMPANY_SUITE: "✔️",
+          Custom: "✔️"
+        },
+        {
+          id: 17,
+          Features: "Stock/Inventory Taking",
+          Kadas_Lite: "➖",
+          KADAS_COMPANY_SUITE: "✔️",
+          Custom: "✔️"
+        },
+        {
+          id: 18,
+          Features: "Private Communication System (V.2)",
+          Kadas_Lite: "➖",
+          KADAS_COMPANY_SUITE: "✔️",
+          Custom: "✔️"
+        },
+        {
+          id: 19,
+          Features: "Review Policies & Company Documents",
+          Kadas_Lite: "➖",
+          KADAS_COMPANY_SUITE: "✔️",
+          Custom: "✔️"
+        },
+        {
+          id: 20,
+          Features: "Closed System Advertsing",
+          Kadas_Lite: "➖",
+          KADAS_COMPANY_SUITE: "✔️",
+          Custom: "✔️"
+        },
+        {
+          id: 21,
+          Features: "Secure Data Storage",
+          Kadas_Lite: "✔️",
+          KADAS_COMPANY_SUITE: "✔️",
+          Custom: "✔️"
+        },
+        {
+          id: 22,
+          Features: "User Access Controls (Admin Panel)",
+          Kadas_Lite: "➖",
+          KADAS_COMPANY_SUITE: "✔️",
+          Custom: "✔️"
+        },
+        {
+          id: 23,
+          Features: "Music Streaming",
+          Kadas_Lite: "➖",
+          KADAS_COMPANY_SUITE: "✔️",
+          Custom: "✔️"
+        },
+        {
+          id: 24,
+          Features: "Dietary Requirements (V.3)",
+          Kadas_Lite: "➖",
+          KADAS_COMPANY_SUITE: "✔️",
+          Custom: "✔️"
+        },
+        {
+          id: 25,
+          Features: "HOD Reviews and Updates",
+          Kadas_Lite: "✔️",
+          KADAS_COMPANY_SUITE: "✔️",
+          Custom: "✔️"
+        },
+        {
+          id: 26,
+          Features: "HR Reviews and Updates",
           Kadas_Lite: "✔️",
           KADAS_COMPANY_SUITE: "✔️",
           Custom: "✔️"

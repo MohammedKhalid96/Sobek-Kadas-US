@@ -1,7 +1,7 @@
 <template>
   <div id="pricing-page" class="internal-pages">
     <InternalHeader>
-      <Title big blod Orange center title="Pricing" />
+      <Title big blod orange center title="Pricing" />
     </InternalHeader>
     <div class="internal-pages__body">
       <Pricing />

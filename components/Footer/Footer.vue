@@ -28,7 +28,7 @@
                     <Icon iconName="envelope-fill"></Icon>support@kadas.co.za
                   </a>
                 </li>
-                
+
                 <li>
                   <a href="mail:sales@kadas.co.za">
                     <Icon iconName="envelope-fill"></Icon>sales@kadas.co.za
@@ -153,11 +153,10 @@ export default {
   width: 100%;
 }
 
-#home-page ~ #footer .top-shape {
-  z-index: -1;
-}
-
-#faq-page ~ #footer .top-shape {
+#home-page ~ #footer .top-shape,
+#faq-page ~ #footer .top-shape,
+#feature-details-page ~ #footer .top-shape,
+#contact-page ~ #footer .top-shape {
   z-index: -1;
 }
 

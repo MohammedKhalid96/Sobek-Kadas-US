@@ -3,22 +3,76 @@ export default () => ({
     {
       id: 1,
       featureImgPath: require("../../assets/images/features/hr.png"),
-      featureName: "Admin and HR"
+      featureName: "Admin and HR",
+      featureDescList: [
+        {
+          featureDesc: "Allocate tasks and follow-up"
+        },
+        {
+          featureDesc: "Secure your documents"
+        },
+        {
+          featureDesc: "Clocking and overtime system"
+        },
+        {
+          featureDesc: "Easy performance evaluation"
+        },
+        {
+          featureDesc: "Easy and flowing process"
+        },
+        {
+          featureDesc: "Revisit policies and regulations"
+        }
+      ]
     },
     {
       id: 2,
       featureImgPath: require("../../assets/images/features/workflow.png"),
-      featureName: "Continual of Operations"
+      featureName: "Continual of Operations",
+      featureDescList: [
+        {
+          featureDesc: "HR and management feedback on performance"
+        },
+        {
+          featureDesc:
+            "Goal-setting and goal allocation lined with company goals and vision"
+        },
+        {
+          featureDesc: "Goal-tracking and management"
+        }
+      ]
     },
     {
       id: 3,
       featureImgPath: require("../../assets/images/features/map.png"),
-      featureName: "Manage Teams"
+      featureName: "Manage Teams",
+      featureDescList: [
+        {
+          featureDesc: "Employee task and time management"
+        },
+        {
+          featureDesc: "Manager access control made easy"
+        },
+        {
+          featureDesc: "Departmental workflow management"
+        }
+      ]
     },
     {
       id: 4,
       featureImgPath: require("../../assets/images/features/procurm.png"),
-      featureName: "Remote Work"
+      featureName: "Remote Work",
+      featureDescList: [
+        {
+          featureDesc: "Recorded remote and office-based clocking system"
+        },
+        {
+          featureDesc: "Leave application management and feedback"
+        },
+        {
+          featureDesc: "Loan application management and feedback"
+        }
+      ]
     },
     {
       id: 5,
