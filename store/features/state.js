@@ -77,28 +77,93 @@ export default () => ({
     {
       id: 5,
       featureImgPath: require("../../assets/images/features/advertis.jpg"),
-      featureName: "Survival of Business"
+      featureName: "Smart Procurement",
+      featureDescList: [
+        {
+          featureDesc: "Automated daily and weekly reporting"
+        },
+        {
+          featureDesc: "Management of staff"
+        },
+        {
+          featureDesc: "Feedback system"
+        },
+        {
+          featureDesc: "Task  allocation and team work"
+        }
+      ]
     },
     {
       id: 6,
       featureImgPath: require("../../assets/images/features/reporting.png"),
-      featureName: "Automated Reporting"
+      featureName: "Automated Reporting",
+      featureDescList: [
+        {
+          featureDesc: "Advertisement of companies on platform"
+        },
+        {
+          featureDesc: "Closed System of Advertisement"
+        },
+        {
+          featureDesc: "Ads invoiced in minutes"
+        }
+      ]
     },
 
     {
       id: 7,
       featureImgPath: require("../../assets/images/features/time.jpg"),
-      featureName: "Save Money"
+      featureName: "Save Money",
+      featureDescList: [
+        {
+          featureDesc: "Save travel costs"
+        },
+        {
+          featureDesc: "Paperwork and printing costs"
+        },
+        {
+          featureDesc:
+            "Office Assets such as desks and chairs are also costs eliminated. They will only need a device and internet"
+        },
+        {
+          featureDesc: "Reduce pollution"
+        }
+      ]
     },
     {
       id: 8,
       featureImgPath: require("../../assets/images/features/private.png"),
-      featureName: "Private Communication"
+      featureName: "Private Communication",
+      featureDescList: [
+        {
+          featureDesc: "Secure data storage"
+        },
+        {
+          featureDesc: "User access controls"
+        },
+        {
+          featureDesc: "Encrypted emails (V2)"
+        },
+        {
+          featureDesc: "Encrypted messaging (V2)"
+        }
+      ]
     },
     {
       id: 9,
       featureImgPath: require("../../assets/images/features/ads.jpg"),
-      featureName: "Advertisment"
+      featureName: "Advertisment",
+      featureDescList: [
+        {
+          featureDesc: "Advertisement of companies on platform"
+        },
+        {
+          featureDesc: "Closed System of Advertisement"
+        },
+        {
+          featureDesc: "Ads invoiced in minutes"
+        }
+      ]
     }
   ]
 });

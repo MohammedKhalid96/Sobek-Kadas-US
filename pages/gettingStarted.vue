@@ -5,35 +5,27 @@
     </InternalHeader>
     <div class="internal-pages__body">
       <b-container>
-        <Title medium bold dark center title="To Get Started Or To Know More Please Contact Us" />
+        <Title medium bold dark center title="Contact us for more Information" />
         <div class="getting-started-page__contact">
-          <b-row>
-            <b-col md="6">
-              <div class="getting-started-page__desc">
-                <Title
-                  small
-                  dark
-                  title="Kadas is an application that will change how you organise and operate as you expand your company. Teams can work remotely and efficiently with no physical presence needed to perform all your team and workflow management. Kadas ensures efficiency and productivity in the most cost-effective, paperless and time-saving manner. Kadas is available on both Android and iOS smartphones and ."
-                />
+          <div class="getting-started-page__desc text-center">
+            <Title
+              small
+              dark
+              title="Kadas is an application that will change how you organise and operate as you expand your company. Teams can work remotely and efficiently with no physical presence needed to perform all your team and workflow management. Kadas ensures efficiency and productivity in the most cost-effective, paperless and time-saving manner. Kadas is available on both Android and iOS smartphones and ."
+            />
 
-                <Title
-                  small
-                  dark
-                  title="Kadas will assist in managing your team and workflow system to create better functionality. There is no need to spend so much money on inventory and stock tracking or even spend much time organizing and doing redundant business-as-usual administrations that takes much time and leaves you with less time to spend on your actual work. Efficiency and productivity is what Kadas wants to ensure in the easiest possible manner."
-                />
+            <Title
+              small
+              dark
+              title="Kadas will assist in managing your team and workflow system to create better functionality. There is no need to spend so much money on inventory and stock tracking or even spend much time organizing and doing redundant business-as-usual administrations that takes much time and leaves you with less time to spend on your actual work. Efficiency and productivity is what Kadas wants to ensure in the easiest possible manner."
+            />
 
-                <Title
-                  small
-                  dark
-                  title="Kadas is an application platform developed by Sobek IT (Pty) Ltd"
-                ></Title>
-              </div>
-            </b-col>
-
-            <b-col md="6">
-              <Form />
-            </b-col>
-          </b-row>
+            <Title
+              small
+              dark
+              title="Kadas is an application platform developed by Sobek IT (Pty) Ltd"
+            ></Title>
+          </div>
         </div>
       </b-container>
 

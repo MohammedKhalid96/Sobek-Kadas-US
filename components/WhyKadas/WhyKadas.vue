@@ -2,7 +2,7 @@
   <div id="why-kadas">
     <div class="internal__wrap">
       <b-container>
-        <Title orange medium bold center title="Why You Want Kadas In Your Business" />
+        <Title orange medium bold center title="Why Do You Need Kadas?" />
 
         <div class="why-kadas__wrap text-center">
           <b-row v-for="whyKadasElemnet in whyKadas" :key="whyKadasElemnet.id">

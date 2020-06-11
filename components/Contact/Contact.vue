@@ -2,7 +2,7 @@
   <div id="contact">
     <div class="internal__wrap text-center">
       <b-container>
-        <Title orange medium bold center title="Want To Know More" />
+        <Title orange medium bold center title="Find Out More" />
         <Title
           small
           dark
