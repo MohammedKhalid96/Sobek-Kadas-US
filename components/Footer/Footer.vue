@@ -55,7 +55,7 @@
 
               <ul>
                 <li>
-                  <nuxt-link to="/" exact>Home</nuxt-link>
+                  <nuxt-link to="/">Home</nuxt-link>
                 </li>
                 <li>
                   <nuxt-link to="/featuresPage">Features</nuxt-link>
@@ -64,7 +64,7 @@
                   <nuxt-link to="/pricingPage">Pricing</nuxt-link>
                 </li>
                 <li>
-                  <nuxt-link to="/caseStudyPage">Case Study</nuxt-link>
+                  <nuxt-link to="/caseStudiesPage">Case Study</nuxt-link>
                 </li>
                 <li>
                   <nuxt-link to="/gettingStartedPage">Get Started</nuxt-link>
@@ -90,7 +90,7 @@
                   <nuxt-link to="/contactPage">Contact Us</nuxt-link>
                 </li>
                 <li>
-                  <nuxt-link to="/supportPage">Support</nuxt-link>
+                  <nuxt-link to="/contactPage">Support</nuxt-link>
                 </li>
                 <li>
                   <nuxt-link to="/salesPage">Sales</nuxt-link>
@@ -154,13 +154,12 @@ export default {
   bottom: 100%;
   left: 0;
   width: 100%;
+  z-index: -1;
 }
 
-#home-page ~ #footer .top-shape,
-#faq-page ~ #footer .top-shape,
-#feature-details-page ~ #footer .top-shape,
-#contact-page ~ #footer .top-shape {
-  z-index: -1;
+#pricing-page ~ #footer .top-shape,
+#features-page ~ #footer .top-shape {
+  z-index: 1;
 }
 
 .footer__info img {

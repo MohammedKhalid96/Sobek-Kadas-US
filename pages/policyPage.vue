@@ -1,5 +1,5 @@
 <template>
-  <div id="faq-page" class="internal-pages">
+  <div id="policy-page" class="internal-pages">
     <InternalHeader>
       <Title big bold orange center title="Privacy Policy" />
     </InternalHeader>

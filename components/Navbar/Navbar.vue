@@ -14,7 +14,7 @@
             <b-nav-item to="/" exact>Home</b-nav-item>
             <b-nav-item to="/featuresPage">Features</b-nav-item>
             <b-nav-item to="/pricingPage">Pricing</b-nav-item>
-            <b-nav-item to="/caseStudyPage">Case Study</b-nav-item>
+            <b-nav-item to="/caseStudiesPage">Case Study</b-nav-item>
             <b-nav-item to="/gettingStartedPage">Get Started</b-nav-item>
             <b-nav-item to="/partnerPage">Partner</b-nav-item>
             <b-nav-item to="/contactPage">Contact Us</b-nav-item>
