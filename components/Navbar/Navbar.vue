@@ -12,17 +12,17 @@
           <!-- Right aligned nav items -->
           <b-navbar-nav class="ml-auto">
             <b-nav-item to="/" exact>Home</b-nav-item>
-            <b-nav-item to="/features">Features</b-nav-item>
+            <b-nav-item to="/featuresPage">Features</b-nav-item>
             <b-nav-item to="/pricingPage">Pricing</b-nav-item>
-            <b-nav-item to="/caseStudy">Case Study</b-nav-item>
-            <b-nav-item to="/gettingStarted">Get Started</b-nav-item>
-            <b-nav-item to="/partner">Partner</b-nav-item>
-            <b-nav-item to="/contact">Contact Us</b-nav-item>
+            <b-nav-item to="/caseStudyPage">Case Study</b-nav-item>
+            <b-nav-item to="/gettingStartedPage">Get Started</b-nav-item>
+            <b-nav-item to="/partnerPage">Partner</b-nav-item>
+            <b-nav-item to="/contactPage">Contact Us</b-nav-item>
             <b-nav-item-dropdown text="Login" left>
-              <b-dropdown-item to="/profile">Profile</b-dropdown-item>
-              <b-dropdown-item to="/dashboard">Dashboard</b-dropdown-item>
+              <b-dropdown-item href="http://users.kadas.co.za/login" target="_blank">Profile</b-dropdown-item>
+              <b-dropdown-item href="http://dashboard.kadas.co.za/login" target="_blank">Dashboard</b-dropdown-item>
             </b-nav-item-dropdown>
-            <b-nav-item to="/kadas">Kadas Web</b-nav-item>
+            <b-nav-item href="http://web.kadas.co.za/login" target="_blank">Kadas Web</b-nav-item>
           </b-navbar-nav>
         </b-collapse>
       </b-container>

@@ -58,19 +58,22 @@
                   <nuxt-link to="/" exact>Home</nuxt-link>
                 </li>
                 <li>
-                  <nuxt-link to="/features">Features</nuxt-link>
-                </li>
-                <li>
-                  <nuxt-link to="/caseStudy">Case Study</nuxt-link>
+                  <nuxt-link to="/featuresPage">Features</nuxt-link>
                 </li>
                 <li>
                   <nuxt-link to="/pricingPage">Pricing</nuxt-link>
                 </li>
                 <li>
-                  <nuxt-link to="/partner">Partner</nuxt-link>
+                  <nuxt-link to="/caseStudyPage">Case Study</nuxt-link>
                 </li>
                 <li>
-                  <nuxt-link to="/kadas">Kadas Web</nuxt-link>
+                  <nuxt-link to="/gettingStartedPage">Get Started</nuxt-link>
+                </li>
+                <li>
+                  <nuxt-link to="/partnerPage">Partner</nuxt-link>
+                </li>
+                <li>
+                  <a href="http://web.kadas.co.za/login" target="_blank">Kadas Web</a>
                 </li>
               </ul>
             </div>
@@ -84,16 +87,16 @@
 
               <ul>
                 <li>
-                  <nuxt-link to="/contact">Contact Us</nuxt-link>
+                  <nuxt-link to="/contactPage">Contact Us</nuxt-link>
                 </li>
                 <li>
-                  <nuxt-link to="/support">Support</nuxt-link>
+                  <nuxt-link to="/supportPage">Support</nuxt-link>
                 </li>
                 <li>
-                  <nuxt-link to="/sales">Sales</nuxt-link>
+                  <nuxt-link to="/salesPage">Sales</nuxt-link>
                 </li>
                 <li>
-                  <nuxt-link to="/download">Manual</nuxt-link>
+                  <nuxt-link to="/downloadPage">Manual</nuxt-link>
                 </li>
               </ul>
             </div>
@@ -107,16 +110,16 @@
 
               <ul>
                 <li>
-                  <nuxt-link to="/terms">Terms & Conditions</nuxt-link>
+                  <nuxt-link to="/termsPage">Terms & Conditions</nuxt-link>
                 </li>
                 <li>
-                  <nuxt-link to="/privacy">Privacy Policy</nuxt-link>
+                  <nuxt-link to="/policyPage">Privacy Policy</nuxt-link>
                 </li>
                 <li>
-                  <nuxt-link to="/security">Security</nuxt-link>
+                  <nuxt-link to="/securityPage">Security</nuxt-link>
                 </li>
                 <li>
-                  <nuxt-link to="/faq">FAQ</nuxt-link>
+                  <nuxt-link to="/faqPage">FAQ</nuxt-link>
                 </li>
               </ul>
             </div>
@@ -174,6 +177,7 @@ li {
 
 .footer__links a {
   color: #272b3a;
+  font-weight: bold;
   margin-bottom: 1.5rem;
 }
 

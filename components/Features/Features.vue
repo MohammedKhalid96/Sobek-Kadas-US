@@ -6,7 +6,9 @@
       </div>
 
       <b-container>
-        <Title orange medium bold center title="Kadas Features" />
+        <div class="main-section-title">
+          <Title orange medium bold center title="Kadas Features" />
+        </div>
 
         <div class="features__top-features">
           <b-row>

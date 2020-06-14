@@ -1,10 +1,12 @@
 <template>
-  <div id="pricing-page" class="internal-pages">
+  <div id="features-page" class="internal-pages">
     <InternalHeader>
-      <Title big blod orange center title="Pricing" />
+      <Title big bold orange center title="Features" />
     </InternalHeader>
     <div class="internal-pages__body">
-      <Pricing />
+      <b-container>
+        <Features />
+      </b-container>
     </div>
     <div class="divider"></div>
     <div class="divider"></div>
@@ -14,22 +16,21 @@
 <script>
 import InternalHeader from "../components/InternalHeader/InternalHeader";
 import Title from "../components/Title/Title";
-import Pricing from "../components/Pricing/Pricing";
+import Features from "../components/Features/Features";
 
 export default {
-  name: "PricingPage",
+  name: "FeaturesPage",
 
-  components: { InternalHeader, Title, Pricing }
+  components: {
+    InternalHeader,
+    Title,
+    Features
+  }
 };
 </script>
 
 <style scoped>
-#pricing {
+#features-page #features {
   background: #fff;
-}
-
-.internal-pages__body {
-  position: relative;
-  bottom: 1rem;
 }
 </style>
