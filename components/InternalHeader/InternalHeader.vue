@@ -35,7 +35,7 @@ export default {
   transform: translate(-50%, -50%);
 }
 
-.internal-header__bg::before{
+.internal-header__bg::before {
   position: absolute;
   width: 150px;
   height: 150px;
@@ -51,8 +51,7 @@ export default {
   z-index: 1;
 }
 
-
-.internal-header__bg::after{
+.internal-header__bg::after {
   position: absolute;
   width: 300px;
   height: 300px;
@@ -65,5 +64,12 @@ export default {
   top: 0;
   right: 0;
   z-index: 1;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .internal-header__title {
+    position: static;
+    transform: translate(0, 0);
+  }
 }
 </style>

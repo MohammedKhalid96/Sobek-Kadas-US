@@ -42,4 +42,7 @@ export default {
 .fakelink__white {
   color: #fff;
 }
+@media (min-width: 320px) and (max-width: 767px) { 
+
+}
 </style>

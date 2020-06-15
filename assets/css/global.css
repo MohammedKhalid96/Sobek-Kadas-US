@@ -161,6 +161,15 @@ ul {
   display: none;
 }
 
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s;
+}
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
   .divider {
     height: 65px;
@@ -182,5 +191,9 @@ ul {
   .nav-item {
     padding-left: 1rem;
     margin-top: 1rem;
+  }
+  #pricing-page .internal-pages__body {
+    margin-top: 4rem;
+    z-index: 1;
   }
 }

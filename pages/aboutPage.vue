@@ -88,56 +88,54 @@
 
       <div class="divider"></div>
 
-      <div class="about__desc-wrap">
-        <b-container>
-          <b-row>
-            <b-col md="6">
-              <Title medium dark bold title="Affordabilty and cost optimisation " />
-              <ul>
-                <li>
-                  <span class="about-desc__highlighted">Save travel costs</span>, since its from the comfort of one’s home.
-                </li>
-                <li>A physical working environment by which physical presence and design are no longer a cost to be carried since it is all virtual.</li>
-                <li>
-                  <span class="about-desc__highlighted">Paperwork and printing costs</span>
-                  are no longer costs to carry since they are all available online.
-                </li>
-                <li>
-                  <span class="about-desc__highlighted">Reduce pollution</span> and better healthy environment for all.
-                </li>
-                <li>Eliminate cost associated with monotring food and beverages within the institution.</li>
-              </ul>
-            </b-col>
+      <b-container>
+        <Title medium dark bold title="Affordabilty and cost optimisation " />
 
-            <b-col md="6">
-              <Title medium dark bold title />
-              <ul>
-                <li>
-                  <span class="about-desc__highlighted">Office Assets such as</span>
-                  desks and chairs are also costs eliminated. They will only need a device and internet.
-                </li>
-                <li>
-                  <span class="about-desc__highlighted">Time is no longer wasted</span>
-                  since staff are now expected to be self-disciplined and provided deadlines that they must meet.
-                </li>
-                <li>
-                  Reduce behavioral and
-                  <span class="about-desc__highlighted">negative peer issues</span>
-                  are no longer brought up at work.
-                </li>
-                <li>
-                  Cost savings may be directled to
-                  <span
-                    class="about-desc__highlighted"
-                  >enhanced compensations</span>
-                  or luring bigger and better opportunities.
-                </li>
-                <li>The only cost a school will need to carry is the subscription to Kadas Fundi.</li>
-              </ul>
-            </b-col>
-          </b-row>
-        </b-container>
-      </div>
+        <b-row>
+          <b-col md="6">
+            <ul>
+              <li>
+                <span class="about-desc__highlighted">Save travel costs</span>, since its from the comfort of one’s home.
+              </li>
+              <li>A physical working environment by which physical presence and design are no longer a cost to be carried since it is all virtual.</li>
+              <li>
+                <span class="about-desc__highlighted">Paperwork and printing costs</span>
+                are no longer costs to carry since they are all available online.
+              </li>
+              <li>
+                <span class="about-desc__highlighted">Reduce pollution</span> and better healthy environment for all.
+              </li>
+              <li>Eliminate cost associated with monotring food and beverages within the institution.</li>
+            </ul>
+          </b-col>
+
+          <b-col md="6">
+            <ul>
+              <li>
+                <span class="about-desc__highlighted">Office Assets such as</span>
+                desks and chairs are also costs eliminated. They will only need a device and internet.
+              </li>
+              <li>
+                <span class="about-desc__highlighted">Time is no longer wasted</span>
+                since staff are now expected to be self-disciplined and provided deadlines that they must meet.
+              </li>
+              <li>
+                Reduce behavioral and
+                <span class="about-desc__highlighted">negative peer issues</span>
+                are no longer brought up at work.
+              </li>
+              <li>
+                Cost savings may be directled to
+                <span
+                  class="about-desc__highlighted"
+                >enhanced compensations</span>
+                or luring bigger and better opportunities.
+              </li>
+              <li>The only cost a school will need to carry is the subscription to Kadas Fundi.</li>
+            </ul>
+          </b-col>
+        </b-row>
+      </b-container>
     </div>
     <div class="divider"></div>
     <div class="divider"></div>
@@ -159,6 +157,12 @@ export default {
 </script>
 
 <style scoped>
+.about__desc-wrap {
+  background: url("../assets/images/backgrounds/shape-8-left.png");
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+}
 .about__desc {
   display: flex;
   flex-flow: column;

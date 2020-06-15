@@ -11,16 +11,18 @@ export default {
 </script>
 
 <style scoped>
+#table {
+  overflow-x: auto;
+}
 table {
   width: 100%;
   max-width: 100%;
   border-collapse: separate;
-  overflow-x: scroll;
 }
 
 td {
-  padding: 1.5rem;
   width: 25%;
+  padding: 1.5rem;
 }
 
 th {
@@ -39,5 +41,13 @@ tbody tr:nth-child(odd) {
 .tr-action td {
   padding: 0;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  td {
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+}
 </style>
+
 

@@ -89,4 +89,10 @@ export default {
   background: transparent;
   color: #272b3a;
 }
+
+@media (min-width: 320px) and (max-width: 767px) { 
+  .faq__tabs {
+    margin-top: 1rem;
+  }
+}
 </style>

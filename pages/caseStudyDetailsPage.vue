@@ -141,4 +141,9 @@ export default {
   height: 500px;
   object-fit: cover;
 }
+@media (min-width: 320px) and (max-width: 767px) {
+  .main-post-img img {
+    height: auto;
+  }
+}
 </style>

@@ -101,4 +101,10 @@ export default {
 .getting-started-page__steps__download svg {
   margin-left: 0.3rem;
 }
+@media (min-width: 320px) and (max-width: 767px) {
+  .getting-started-page__steps__download {
+    display: block;
+    margin-bottom: 2rem;
+  }
+}
 </style>
