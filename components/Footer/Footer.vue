@@ -96,7 +96,7 @@
                   <nuxt-link to="/salesPage">Sales</nuxt-link>
                 </li>
                 <li>
-                  <nuxt-link to="/downloadPage">Manual</nuxt-link>
+                  <nuxt-link to="/manualPage">Manual</nuxt-link>
                 </li>
               </ul>
             </div>

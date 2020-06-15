@@ -36,7 +36,7 @@ import Post from "../components/Post/Post";
 import FakeLink from "../components/FakeLink/FakeLink";
 
 export default {
-  name: "FeaturesPage",
+  name: "CaseStudyPage",
 
   components: {
     InternalHeader,

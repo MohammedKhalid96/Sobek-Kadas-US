@@ -2,8 +2,8 @@
   <div id="home-page">
     <HomeHeader />
     <div class="explore-more text-center">
-      <Button to="/about" smallRadius dark>About Us</Button>
-      <Button to="/contact" smallRadius bgOrange>
+      <Button to="/aboutPage" smallRadius dark>About Us</Button>
+      <Button to="/contactPage" smallRadius bgOrange>
         Contact Us
         <Icon iconName="arrow-right-circle" class="ml-1" />
       </Button>
