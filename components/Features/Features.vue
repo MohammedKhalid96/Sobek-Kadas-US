@@ -97,6 +97,14 @@ export default {
   height: 260px;
 }
 
+@media (min-width: 992px) and (max-width: 1183px),
+  screen and (min-width: 768px) and (max-width: 991px) {
+    .features__top-features__element__img img { 
+      height: 150px;
+      object-fit: contain;
+    }
+  }
+
 @media (min-width: 320px) and (max-width: 767px) {
   .row .col-md-4:nth-child(2),
   .row .col-md-4:nth-child(3) {

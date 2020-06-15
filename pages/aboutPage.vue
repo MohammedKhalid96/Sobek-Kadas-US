@@ -58,7 +58,7 @@
             </b-col>
 
             <b-col md="6">
-              <div class="about__img">
+              <div class="about__img about__img--first">
                 <b-img src="../assets/images/mockup/about-1.jpg" fluid-grow></b-img>
               </div>
             </b-col>
@@ -92,7 +92,7 @@
         <Title medium dark bold title="Affordabilty and cost optimisation " />
 
         <b-row>
-          <b-col md="6">
+          <b-col lg="6">
             <ul>
               <li>
                 <span class="about-desc__highlighted">Save travel costs</span>, since its from the comfort of one’s home.
@@ -109,7 +109,7 @@
             </ul>
           </b-col>
 
-          <b-col md="6">
+          <b-col lg="6">
             <ul>
               <li>
                 <span class="about-desc__highlighted">Office Assets such as</span>
@@ -183,5 +183,17 @@ li {
 }
 .about-desc__highlighted {
   color: #ec5423;
+}
+
+@media (min-width: 992px) and (max-width: 1183px),
+  screen and (min-width: 768px) and (max-width: 991px) {
+  .about__img--first {
+    display: flex;
+    position: relative;
+    z-index: -1;
+    flex-flow: column;
+    justify-content: center;
+    height: 100%;
+  }
 }
 </style>

@@ -112,6 +112,16 @@ iframe {
   screen and (min-width: 320px) and (max-width: 767px) {
 } */
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .header__title {
+    position: static;
+  }
+  .header__subtitle {
+    top: 10%;
+    right: 10%;
+  }
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
   .header__title,
   .header__subtitle {

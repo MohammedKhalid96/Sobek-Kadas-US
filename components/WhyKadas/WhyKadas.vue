@@ -6,7 +6,7 @@
 
         <div class="why-kadas__wrap text-center">
           <b-row v-for="whyKadasElemnet in whyKadas" :key="whyKadasElemnet.id">
-            <b-col md="6">
+            <b-col lg="6">
               <div class="why-kadas__wrap__element">
                 <div class="why-kadas__wrap__element__index">
                   <FakeLink roundedRadius bgOrange white :content="whyKadasElemnet.id + '' " />
@@ -21,7 +21,7 @@
                 </div>
               </div>
             </b-col>
-            <b-col cols="hidden" md="6"></b-col>
+            <b-col cols="hidden" lg="6"></b-col>
           </b-row>
         </div>
       </b-container>

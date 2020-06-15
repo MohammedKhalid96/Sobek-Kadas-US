@@ -6,13 +6,13 @@
     <div class="internal-pages__body">
       <b-container>
         <b-row>
-          <b-col md="6">
+          <b-col lg="6">
             <div class="faq__img">
               <b-img src="../assets/images/mockup/faq.jpg" fluid-grow></b-img>
             </div>
           </b-col>
 
-          <b-col md="6">
+          <b-col lg="6">
             <div role="tablist" class="faq__tabs">
               <div v-for="(faq,index) in faqs" v-bind:key="faq.id" no-body class="mb-1">
                 <div header-tag="header" class="p-1" role="tab">
@@ -90,7 +90,17 @@ export default {
   color: #272b3a;
 }
 
-@media (min-width: 320px) and (max-width: 767px) { 
+@media (min-width: 992px) and (max-width: 1183px) {
+  .faq__img {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px),
+  screen and (min-width: 320px) and (max-width: 767px) {
   .faq__tabs {
     margin-top: 1rem;
   }

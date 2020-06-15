@@ -9,7 +9,9 @@
         <b-row>
           <b-col md="3">
             <div class="footer__info">
-              <b-img src="../../assets/images/logo.png" fluid alt></b-img>
+              <nuxt-link to="/">
+                <b-img src="../../assets/images/logo.png" fluid alt></b-img>
+              </nuxt-link>
               <ul class="footer__links">
                 <li>
                   <a href="tel:+27114729294">
@@ -183,5 +185,10 @@ li {
 .footer__links svg {
   color: #ec5423;
   margin-right: 0.7rem;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .footer__links a {
+    font-size: 0.8rem;
+  }
 }
 </style>
