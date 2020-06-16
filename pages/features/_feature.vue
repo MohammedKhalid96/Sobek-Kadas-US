@@ -93,7 +93,16 @@ export default {
 
 li {
   margin-bottom: 1rem;
-  font-size: 1.3rem;
+  font-size: 1.2em;
   font-weight: bold;
+}
+@media (min-width: 320px) and (max-width: 767px) { 
+  .feature__description {
+    margin-top: 1.5rem;
+  }
+
+  li {
+    font-size: 1em;
+  }
 }
 </style>
