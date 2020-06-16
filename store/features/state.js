@@ -132,7 +132,7 @@ export default () => ({
     },
     {
       id: 8,
-      featureImgPath: require("../../assets/images/features/private.png"),
+      featureImgPath: require("../../assets/images/features/private.jpg"),
       featureName: "Private Communication",
       featureDescList: [
         {

@@ -1,23 +1,23 @@
 <template>
   <div id="policy-page" class="internal-pages">
     <InternalHeader>
-      <Title big bold orange center title="Privacy Policy" />
+      <Title big bold orange center title="Terms & Conditions" />
     </InternalHeader>
     <div class="internal-pages__body">
       <b-container>
         <div role="tablist" class="faq__tabs">
-          <div v-for="(policy,index) in policies" v-bind:key="policy.id" no-body class="mb-1">
+          <div v-for="(term,index) in terms" v-bind:key="term.id" no-body class="mb-1">
             <div header-tag="header" class="p-1" role="tab">
-              <b-button block v-b-toggle="'accordion'+index">{{policy.policyTitle}}</b-button>
+              <b-button block v-b-toggle="'accordion'+index">{{term.termTitle}}</b-button>
             </div>
             <b-collapse
               :id="'accordion'+index"
               accordion="my-accordion"
-              :visible="policy.visible"
+              :visible="term.visible"
               role="tabpanel"
             >
               <b-card-body>
-                <b-card-text>{{ policy.policyDescription }}</b-card-text>
+                <b-card-text>{{ term.termDescription }}</b-card-text>
               </b-card-body>
             </b-collapse>
           </div>
@@ -36,7 +36,7 @@ import InternalHeader from "../components/InternalHeader/InternalHeader";
 import Title from "../components/Title/Title";
 
 export default {
-  name: "Policy",
+  name: "Terms",
 
   components: {
     InternalHeader,
@@ -44,7 +44,7 @@ export default {
   },
 
   computed: mapGetters({
-    policies: "policy/policies"
+    terms: "terms/terms"
   })
 };
 </script>
@@ -58,7 +58,6 @@ export default {
   font-weight: bold;
   font-size: 1.2em;
 }
-
 .faq__tabs button:focus,
 .btn-secondary:not(:disabled):not(.disabled):active,
 .btn-secondary:not(:disabled):not(.disabled).active,
@@ -68,7 +67,6 @@ export default {
   background: transparent;
   color: #272b3a;
 }
-
 .faq__tabs button::before {
   content: "o";
   font-weight: bold;
@@ -76,7 +74,6 @@ export default {
   font-size: 1.6rem;
   margin-right: 0.5rem;
 }
-
 .card-text {
   font-size: 1.1em;
 }

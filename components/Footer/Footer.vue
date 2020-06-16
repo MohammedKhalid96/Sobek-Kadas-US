@@ -95,7 +95,7 @@
                   <nuxt-link to="/contactPage">Support</nuxt-link>
                 </li>
                 <li>
-                  <nuxt-link to="/salesPage">Sales</nuxt-link>
+                  <nuxt-link to="/pricingPage">Sales</nuxt-link>
                 </li>
                 <li>
                   <nuxt-link to="/manualPage">Manual</nuxt-link>
@@ -118,7 +118,7 @@
                   <nuxt-link to="/policyPage">Privacy Policy</nuxt-link>
                 </li>
                 <li>
-                  <nuxt-link to="/securityPage">Security</nuxt-link>
+                  <nuxt-link to="/features/Private%20Communication">Security</nuxt-link>
                 </li>
                 <li>
                   <nuxt-link to="/faqPage">FAQ</nuxt-link>

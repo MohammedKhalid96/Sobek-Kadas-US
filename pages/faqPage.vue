@@ -20,7 +20,7 @@
                 </div>
                 <b-collapse
                   :id="'accordion'+index"
-                  :accordion="'accordion'+index"
+                  accordion="my-accordion"
                   :visible="faq.visible"
                   role="tabpanel"
                 >
@@ -70,7 +70,7 @@ export default {
   color: #272b3a;
   text-align: left;
   font-weight: bold;
-  font-size: 1.3rem;
+  font-size: 1.2em;
 }
 
 .faq__tabs {
@@ -88,6 +88,18 @@ export default {
   box-shadow: 0 0 0 0 transparent;
   background: transparent;
   color: #272b3a;
+}
+
+.faq__tabs button::before {
+  content: "o";
+  font-weight: bold;
+  color: #ec5423;
+  font-size: 1.6rem;
+  margin-right: 0.5rem;
+}
+
+.card-text {
+  font-size: 1.1em;
 }
 
 @media (min-width: 992px) and (max-width: 1183px) {

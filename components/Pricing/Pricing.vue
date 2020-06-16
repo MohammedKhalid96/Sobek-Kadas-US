@@ -32,7 +32,7 @@
                 <tr class="tr-action">
                   <td></td>
                   <td v-for="item in 3" :key="item">
-                    <Button to="/contact" smallRadius bgOrange content="Contact Sales" />
+                    <Button to="/contactPage" smallRadius bgOrange content="Contact Sales" />
                   </td>
                 </tr>
               </tbody>
