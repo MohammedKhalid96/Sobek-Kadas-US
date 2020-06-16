@@ -50,7 +50,7 @@ export default {
 
 <style scoped>
 #manual-page .getting-started-page__steps__download #title {
-  margin: 0;
+  display: none;
 }
 
 .getting-started-page__steps__download {
@@ -59,5 +59,11 @@ export default {
   justify-content: center;
   align-items: center;
   height: 100%;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .getting-started-page__steps__download {
+    display: block;
+    margin-bottom: 2rem;
+  }
 }
 </style>
