@@ -6,7 +6,7 @@
     <div class="internal-pages__body">
       <b-container>
         <b-row>
-          <b-col md="6">
+          <b-col md="5">
             <div class="getting-started-page__steps__download text-center">
               <Title medium bold dark center title="How It Works" />
 
@@ -17,7 +17,7 @@
             </div>
           </b-col>
 
-          <b-col md="6">
+          <b-col md="7">
             <Steps />
           </b-col>
         </b-row>

@@ -5,11 +5,11 @@
         <ul class="steps__ul steps__ul--first-col">
           <li v-for="step in steps.slice(0, 6)" :key="step.id" class="steps__ul__li">
             <b-row no-gutters>
-              <b-col cols="2">
+              <b-col cols="2" md="3">
                 <FakeLink roundedRadius white bgOrange :content="step.id + ''" />
               </b-col>
 
-              <b-col cols="10">
+              <b-col cols="10" md="9">
                 <Title small bold dark :title="step.stepDescription" />
               </b-col>
             </b-row>
@@ -20,11 +20,11 @@
       <b-col md="6">
         <ul class="steps__ul steps__ul--second-col">
           <li v-for="step in steps.slice(6, steps.length)" :key="step.id" class="steps__ul__li">
-            <b-row no-gutters="">
-              <b-col cols="2">
+            <b-row no-gutters>
+              <b-col cols="2" md="3">
                 <FakeLink roundedRadius white bgOrange :content="step.id + ''" />
               </b-col>
-              <b-col cols="10">
+              <b-col cols="10" md="9">
                 <Title small bold dark :title="step.stepDescription" />
               </b-col>
             </b-row>
