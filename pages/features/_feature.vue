@@ -8,7 +8,7 @@
         <b-row>
           <b-col md="6">
             <div class="feature__img" v-for="feature in features" :key="feature.id">
-              <b-img v-if="feature.featureName === slug" :src="feature.featureImgPath" fluid-grow></b-img>
+              <b-img-lazy v-if="feature.featureName === slug" :src="feature.featureImgPath" fluid-grow></b-img-lazy>
             </div>
           </b-col>
 

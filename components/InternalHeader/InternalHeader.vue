@@ -1,7 +1,7 @@
 <template>
   <div id="internal-header">
     <div class="internal-header__bg">
-      <b-img src="../../assets/images/backgrounds/shape-11.png" fluid-grow></b-img>
+      <b-img-lazy src="../../assets/images/backgrounds/shape-11.png" fluid-grow></b-img-lazy>
 
       <div class="internal-header__title">
         <slot></slot>

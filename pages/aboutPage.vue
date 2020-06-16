@@ -59,7 +59,7 @@
 
             <b-col md="6">
               <div class="about__img about__img--first">
-                <b-img src="../assets/images/mockup/about-1.jpg" fluid-grow></b-img>
+                <b-img-lazy src="../assets/images/mockup/about-1.jpg" fluid-grow></b-img-lazy>
               </div>
             </b-col>
           </b-row>
@@ -79,7 +79,7 @@
 
             <b-col md="6">
               <div class="about__img">
-                <b-img src="../assets/images/mockup/chart.jpg" fluid-grow></b-img>
+                <b-img-lazy src="../assets/images/mockup/chart.jpg" fluid-grow></b-img-lazy>
               </div>
             </b-col>
           </b-row>

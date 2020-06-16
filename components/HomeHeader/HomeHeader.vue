@@ -13,7 +13,7 @@
         <b-col md="6">
           <div class="header__video text-center">
             <div class="header__video__img" v-b-modal.modal-center>
-              <b-img src="../../assets/images/mockup/new-mocup.png" fluid-grow></b-img>
+              <b-img-lazy src="../../assets/images/mockup/new-mocup.png" fluid-grow></b-img-lazy>
 
               <div class="header__video__img__icon">
                 <Icon iconName="play-fill" bgOrange white></Icon>

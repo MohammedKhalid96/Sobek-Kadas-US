@@ -2,7 +2,7 @@
   <div id="features">
     <div class="internal__wrap">
       <div class="top-shape">
-        <b-img src="../../assets/images/backgrounds/shape-10.png" fluid-grow></b-img>
+        <b-img-lazy src="../../assets/images/backgrounds/shape-10.png" fluid-grow></b-img-lazy>
       </div>
 
       <b-container>
@@ -16,7 +16,7 @@
               <div class="features__top-features__element">
                 <nuxt-link :to="'/features/'+feature.featureName">
                   <div class="features__top-features__element__img">
-                    <b-img :src="feature.featureImgPath" fluid-grow></b-img>
+                    <b-img-lazy :src="feature.featureImgPath" fluid-grow></b-img-lazy>
                   </div>
 
                   <div class="features__top-features__element__info text-center">
@@ -30,7 +30,7 @@
         </div>
       </b-container>
       <div class="bottom-shape">
-        <b-img src="../../assets/images/backgrounds/shape-11.png" fluid-grow></b-img>
+        <b-img-lazy src="../../assets/images/backgrounds/shape-11.png" fluid-grow></b-img-lazy>
       </div>
 
       <div class="divider"></div>

@@ -6,7 +6,7 @@
     <div class="internal-pages__body">
       <b-container>
         <b-row>
-          <b-col md="6">
+          <b-col lg="5">
             <div class="partner-page__info">
               <Title
                 small
@@ -19,7 +19,7 @@
             </div>
           </b-col>
 
-          <b-col md="6">
+          <b-col lg="7">
             <Form />
           </b-col>
         </b-row>

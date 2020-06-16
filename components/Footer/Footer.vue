@@ -2,7 +2,7 @@
   <div id="footer">
     <div class="internal__wrap">
       <div class="top-shape">
-        <b-img src="../../assets/images/backgrounds/shape-10.png" fluid-grow></b-img>
+        <b-img-lazy src="../../assets/images/backgrounds/shape-10.png" fluid-grow></b-img-lazy>
       </div>
 
       <b-container>
@@ -10,7 +10,7 @@
           <b-col md="3">
             <div class="footer__info">
               <nuxt-link to="/">
-                <b-img src="../../assets/images/logo.png" fluid alt></b-img>
+                <b-img-lazy src="../../assets/images/logo.png" fluid alt></b-img-lazy>
               </nuxt-link>
               <ul class="footer__links">
                 <li>

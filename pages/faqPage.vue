@@ -8,7 +8,7 @@
         <b-row>
           <b-col lg="6">
             <div class="faq__img">
-              <b-img src="../assets/images/mockup/faq.jpg" fluid-grow></b-img>
+              <b-img-lazy src="../assets/images/mockup/faq.jpg" fluid-grow></b-img-lazy>
             </div>
           </b-col>
 

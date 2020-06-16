@@ -12,7 +12,7 @@
                   <FakeLink roundedRadius bgOrange white :content="whyKadasElemnet.id + '' " />
                 </div>
                 <div class="why-kadas__wrap__element__img">
-                  <b-img :src="whyKadasElemnet.whyKadasImgPath" fluid></b-img>
+                  <b-img-lazy :src="whyKadasElemnet.whyKadasImgPath" fluid></b-img-lazy>
                 </div>
 
                 <div class="why-kadas__wrap__element__info">

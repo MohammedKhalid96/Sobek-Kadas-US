@@ -6,7 +6,7 @@
     <div class="internal-pages__body">
       <b-container>
         <div class="main-post-img">
-          <b-img src="../assets/images/normal/case-study.jpg" fluid-grow></b-img>
+          <b-img-lazy src="../assets/images/normal/case-study.jpg" fluid-grow></b-img-lazy>
         </div>
         <Title
           small

@@ -2,7 +2,7 @@
   <div id="post">
     <div class="post__element">
       <div class="post__element__img">
-        <b-img :src="postImgPath" fluid-grow></b-img>
+        <b-img-lazy :src="postImgPath" fluid-grow></b-img-lazy>
       </div>
       <div class="post__element__info">
         <div class="post__element__info__date">

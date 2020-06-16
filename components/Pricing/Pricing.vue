@@ -2,7 +2,7 @@
   <div id="pricing">
     <div class="internal__wrap text-center">
       <div class="top-shape">
-        <b-img src="../../assets/images/backgrounds/shape-10.png" fluid-grow></b-img>
+        <b-img-lazy src="../../assets/images/backgrounds/shape-10.png" fluid-grow></b-img-lazy>
       </div>
       <b-container>
         <div class="main-section-title">
@@ -41,7 +41,7 @@
         </div>
       </b-container>
       <div class="bottom-shape">
-        <b-img src="../../assets/images/backgrounds/shape-11.png" fluid-grow></b-img>
+        <b-img-lazy src="../../assets/images/backgrounds/shape-11.png" fluid-grow></b-img-lazy>
       </div>
 
       <div class="divider"></div>
