@@ -128,5 +128,10 @@ iframe {
     position: static;
     text-align: center;
   }
+
+  .header__video__img__icon svg {
+    width: 50px;
+    height: 50px;
+  }
 }
 </style>
