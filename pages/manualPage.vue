@@ -8,12 +8,12 @@
         <b-row>
           <b-col md="5">
             <div class="getting-started-page__steps__download text-center">
-              <Title medium bold dark center title="How It Works" />
-
-              <Button to smallRadius bgOrange>
-                Download
-                <Icon iconName="arrow-right-circle" />
-              </Button>
+              <a target="_blank" href="https://play.google.com/store/apps/details?id=co.za.sobekit.kadas&hl=en_IN">
+                <Button smallRadius bgOrange>
+                  Download
+                  <Icon iconName="arrow-right-circle" />
+                </Button>
+              </a>
             </div>
           </b-col>
 
@@ -49,10 +49,6 @@ export default {
 </script>
 
 <style scoped>
-#manual-page .getting-started-page__steps__download #title {
-  display: none;
-}
-
 .getting-started-page__steps__download {
   display: flex;
   flex-flow: column;

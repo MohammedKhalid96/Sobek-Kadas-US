@@ -23,19 +23,19 @@
                   </li>
 
                   <li>
-                    <a href="mail:info@sobekit.co.za">
-                      <Icon iconName="envelope-fill"></Icon>info@sobekit.co.za
+                    <a href="mailto:info@kadas.co.za">
+                      <Icon iconName="envelope-fill"></Icon>info@kadas.co.za
                     </a>
                   </li>
 
                   <li>
-                    <a href="mail:support@kadas.co.za">
+                    <a href="mailto:support@kadas.co.za">
                       <Icon iconName="envelope-fill"></Icon>support@kadas.co.za
                     </a>
                   </li>
 
                   <li>
-                    <a href="mail:sales@kadas.co.za">
+                    <a href="mailto:sales@kadas.co.za">
                       <Icon iconName="envelope-fill"></Icon>sales@kadas.co.za
                     </a>
                   </li>
@@ -126,5 +126,4 @@ iframe {
   justify-content: center;
   height: 100%;
 }
-
 </style>

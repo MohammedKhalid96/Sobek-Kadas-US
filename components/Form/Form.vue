@@ -1,10 +1,16 @@
 <template>
   <div id="form">
-    <b-form @submit="onSubmit">
+    <b-form @submit.stop.prevent="onSubmit(); addUser();">
       <b-row>
         <b-col lg="6">
           <b-form-group id="input-name" label-for="name">
-            <b-form-input id="name" v-model="form.name" required placeholder="Enter name"></b-form-input>
+            <b-form-input
+              id="name"
+              name="username"
+              v-model="form.username"
+              required
+              placeholder="Enter name"
+            ></b-form-input>
           </b-form-group>
         </b-col>
 
@@ -16,6 +22,7 @@
           >
             <b-form-input
               id="email"
+              name="email"
               v-model="form.email"
               type="email"
               required
@@ -26,12 +33,19 @@
       </b-row>
 
       <b-form-group id="input-subject" label-for="subject">
-        <b-form-input id="subject" v-model="form.subject" required placeholder="Subject"></b-form-input>
+        <b-form-input
+          id="subject"
+          name="subject"
+          v-model="form.subject"
+          required
+          placeholder="Subject"
+        ></b-form-input>
       </b-form-group>
 
       <b-form-group id="input-message" label-for="message">
         <b-form-textarea
           id="message"
+          name="message"
           v-model="form.message"
           required
           rows="6"
@@ -52,6 +66,10 @@ export default {
   name: "Form",
 
   mixins: [inputValidations],
+
+  data() {
+    return {};
+  },
 
   components: {
     Button

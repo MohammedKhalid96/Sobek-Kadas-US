@@ -38,10 +38,15 @@
               <div class="getting-started-page__steps__download text-center">
                 <Title medium bold dark center title="How It Works" />
 
-                <Button to smallRadius bgOrange>
-                  Download
-                  <Icon iconName="arrow-right-circle" />
-                </Button>
+                <a
+                  target="_blank"
+                  href="https://play.google.com/store/apps/details?id=co.za.sobekit.kadas&hl=en_IN"
+                >
+                  <Button smallRadius bgOrange>
+                    Download
+                    <Icon iconName="arrow-right-circle" />
+                  </Button>
+                </a>
               </div>
             </b-col>
 
