@@ -1,13 +1,13 @@
 <template>
   <div id="form">
-    <b-form @submit.stop.prevent="onSubmit(); addUser();">
+    <b-form @submit.prevent.stop="onSubmit(); addUser();">
       <b-row>
         <b-col lg="6">
           <b-form-group id="input-name" label-for="name">
             <b-form-input
               id="name"
-              name="username"
-              v-model="form.username"
+              name="user_name"
+              v-model="form.user_name"
               required
               placeholder="Enter name"
             ></b-form-input>
@@ -42,6 +42,7 @@
         ></b-form-input>
       </b-form-group>
 
+
       <b-form-group id="input-message" label-for="message">
         <b-form-textarea
           id="message"
@@ -53,7 +54,7 @@
         ></b-form-textarea>
       </b-form-group>
 
-      <Button type="submit" bgOrange smallRadius content="Submit" />
+      <Button type="submit" :disabled="form.clicked" bgOrange smallRadius :content="form.btnContent" />
     </b-form>
   </div>
 </template>

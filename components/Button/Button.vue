@@ -3,6 +3,7 @@
     class="button__element"
     :to="to"
     :block="block"
+    :disabled="disabled"
     :type="type"
     :class="{fakelink__roundedradius: roundedRadius, fakelink__smallradius: smallRadius, dark: dark, orange: bgOrange}"
   >
@@ -21,6 +22,7 @@ export default {
     content: String,
     type: String,
     block: Boolean,
+    disabled: Boolean,
     bgOrange: Boolean,
     dark: Boolean,
     smallRadius: Boolean,

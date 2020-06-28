@@ -7,10 +7,12 @@ export default {
     return {
       users: [],
       form: {
-        username: "",
+        user_name: "",
         email: "",
         subject: "",
-        message: ""
+        message: "",
+        clicked: false,
+        btnContent: "Submit"
       },
       show: true
     };
@@ -22,18 +24,22 @@ export default {
     },
 
     async addUser() {
-      const res = await this.$axios
-        .post("http://kadas.co/api/customer/contacts", {
+      const res = await this.$axios.post(
+        "https://kadas.co/api/customer/contacts",
+        {
           headers: {
             Accept: "application/json",
             "Content-Type": "application/json"
           },
-          username: this.form.username,
+          user_name: this.form.user_name,
           email: this.form.email,
           subject: this.form.subject,
-          message: this.form.message
-        })
-        .catch(err => console.log(err.response.data, this.form.username));
+          message: this.form.message,
+          clicked: (this.form.clicked = true),
+          btnContent: (this.form.btnContent =
+            "Thanks for contacting us we will be in touch with you shortly")
+        }
+      );
     }
   }
 };
