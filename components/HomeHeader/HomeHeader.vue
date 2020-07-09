@@ -42,10 +42,6 @@
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
-
-        <!-- <div class="modal__action__button text-center">
-          <Button block bgOrange smallRadius @click="$bvModal.hide('modal-center')" content="Close"></Button>
-        </div>-->
       </b-modal>
     </b-container>
     <div class="divider"></div>
