@@ -2,7 +2,10 @@
   <div id="footer">
     <div class="internal__wrap">
       <div class="top-shape">
-        <b-img-lazy src="../../assets/images/backgrounds/shape-10.png" fluid-grow></b-img-lazy>
+        <b-img-lazy
+          src="../../assets/images/backgrounds/shape-10.png"
+          fluid-grow
+        ></b-img-lazy>
       </div>
 
       <b-container>
@@ -10,7 +13,11 @@
           <b-col md="3">
             <div class="footer__info">
               <nuxt-link to="/">
-                <b-img-lazy src="../../assets/images/logo.png" fluid alt></b-img-lazy>
+                <b-img-lazy
+                  src="../../assets/images/logo.png"
+                  fluid
+                  alt
+                ></b-img-lazy>
               </nuxt-link>
               <ul class="footer__links">
                 <li>
@@ -42,7 +49,8 @@
                     href="https://www.google.com.eg/maps/place/SobekIT/@-26.1566208,27.9139651,17z/data=!4m12!1m6!3m5!1s0x1e95a16d59904d15:0x2deff3fdf91afe8f!2sSobekIT!8m2!3d-26.15683!4d27.91382!3m4!1s0x1e95a16d59904d15:0x2deff3fdf91afe8f!8m2!3d-26.15683!4d27.91382"
                     target="_blank"
                   >
-                    <Icon iconName="map"></Icon>Sobek House, 452 Ontdekkers Rd, Florida Park, Roodepoort, 1709
+                    <Icon iconName="map"></Icon>Sobek House, 452 Ontdekkers Rd,
+                    Florida Park, Roodepoort, 1709
                   </a>
                 </li>
               </ul>
@@ -75,7 +83,9 @@
                   <nuxt-link to="/partnerPage">Partner</nuxt-link>
                 </li>
                 <li>
-                  <a href="http://web.kadas.co.za/login" target="_blank">Kadas Web</a>
+                  <a href="http://web.kadas.co.za/login" target="_blank"
+                    >Kadas Web</a
+                  >
                 </li>
               </ul>
             </div>
@@ -118,7 +128,9 @@
                   <nuxt-link to="/policyPage">Privacy Policy</nuxt-link>
                 </li>
                 <li>
-                  <nuxt-link to="/features/Private%20Communication">Security</nuxt-link>
+                  <nuxt-link to="/features/Private%20Communication"
+                    >Security</nuxt-link
+                  >
                 </li>
                 <li>
                   <nuxt-link to="/faqPage">FAQ</nuxt-link>
@@ -127,6 +139,13 @@
             </div>
           </b-col>
         </b-row>
+        <div class="patent text-center pt-2 pb-2">
+          <p>
+            <span style="color: #ec5423; margin-right: 0.3rem"
+              >Patent Number</span
+            >2020/06424
+          </p>
+        </div>
       </b-container>
     </div>
   </div>
@@ -141,8 +160,8 @@ export default {
 
   components: {
     Title,
-    Icon
-  }
+    Icon,
+  },
 };
 </script>
 
